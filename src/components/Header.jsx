@@ -14,7 +14,9 @@ function Header() {
                 ></ul>
                 <a
                     className='github right'
-                    href='https://github.com/Blckvia/Movies_project.git'
+                    href='https://github.com/Blckvia/fortnite-shop'
+                    target='_blank'
+                    rel='noreferrer'
                 >
                     GitHub
                 </a>

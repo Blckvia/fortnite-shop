@@ -6,7 +6,9 @@ function Footer() {
                     © {new Date().getFullYear()} Copyright Text
                     <a
                         className='github grey-text text-lighten-4 right'
-                        href='https://github.com/Blckvia/Movies_project.git'
+                        href='https://github.com/Blckvia/fortnite-shop'
+                        target='_blank'
+                        rel='noreferrer'
                     >
                         GitHub
                     </a>
