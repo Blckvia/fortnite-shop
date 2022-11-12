@@ -1,4 +1,4 @@
-import { GoodsItem } from './GoodsItem';
+import GoodsItem from './GoodsItem';
 
 function GoodsList(props) {
     const { goods = [], addToBasket = Function.prototype } = props;
@@ -20,4 +20,4 @@ function GoodsList(props) {
     );
 }
 
-export { GoodsList };
+export default GoodsList;

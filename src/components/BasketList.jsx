@@ -1,4 +1,4 @@
-import { BasketItem } from './BasketItem';
+import BasketItem from './BasketItem';
 
 function BasketList(props) {
     const {
@@ -45,4 +45,4 @@ function BasketList(props) {
     );
 }
 
-export { BasketList };
+export default BasketList;

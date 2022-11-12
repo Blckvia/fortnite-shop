@@ -15,9 +15,8 @@ function Alert(props) {
     return (
         <div id='toast-container'>
             <div className='toast'>{name} was added to basket </div>
-            {/* console.log(displayName) */}
         </div>
     );
 }
 
-export { Alert };
+export default Alert;

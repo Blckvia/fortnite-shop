@@ -25,15 +25,15 @@ function BasketItem(props) {
             >
                 add
             </i>{' '}
-            = {price * quantity} руб.
+            = &#8364; {price.regularPrice * quantity}
             <span
                 className='secondary-content'
                 onClick={() => removeFromBasket(mainId)}
             >
-                <i className='material-icons basket-delete'>close</i>
+                <div class='cl-btn-4'></div>
             </span>
         </li>
     );
 }
 
-export { BasketItem };
+export default BasketItem;

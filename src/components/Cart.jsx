@@ -13,4 +13,4 @@ function Cart(props) {
     );
 }
 
-export { Cart };
+export default Cart;
