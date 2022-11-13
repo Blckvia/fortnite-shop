@@ -30,7 +30,7 @@ function BasketItem(props) {
                 className='secondary-content'
                 onClick={() => removeFromBasket(mainId)}
             >
-                <div class='cl-btn-4'></div>
+                <div className='cl-btn-4'></div>
             </span>
         </li>
     );
